@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp://103.116.82.128:21
         username: ftp@domain.com
-        password: ${{ secrets.ftp_password }}     
+        password: ${{ secrets.FTP_PASSWORD }}     
