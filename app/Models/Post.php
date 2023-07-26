@@ -39,5 +39,6 @@ class Post extends Model
         unset($data['created_at']);
         unset($data['updated_at']);
         return $data;
+        
     }
 }
